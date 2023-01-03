@@ -1,0 +1,37 @@
+{
+  "name": "hydra-fetch",
+  "description": "Fetch based Hydra client",
+  "version": "0.1.6",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "stricter-standard && c8 --reporter=lcov --reporter=text-summary mocha"
+  },
+  "author": "Thomas Bergwinkl <bergi@axolotlfarm.org> (https://www.bergnet.org/people/bergi/card#me)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bergos/hydra-fetch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bergos/hydra-fetch/issues"
+  },
+  "homepage": "https://github.com/bergos/hydra-fetch",
+  "dependencies": {
+    "@rdfjs/fetch": "^3.1.0",
+    "@rdfjs/namespace": "^2.0.0",
+    "@rdfjs/term-map": "^2.0.0",
+    "@rdfjs/term-set": "^2.0.1",
+    "clownface": "^1.5.1",
+    "commander": "^9.4.1",
+    "lodash": "^4.17.21",
+    "rdf-ext": "^2.1.0"
+  },
+  "devDependencies": {
+    "@rdfjs/express-handler": "^1.2.2",
+    "c8": "^7.12.0",
+    "express-as-promise": "^1.2.0",
+    "mocha": "^10.2.0",
+    "stricter-standard": "^0.2.0"
+  }
+}
